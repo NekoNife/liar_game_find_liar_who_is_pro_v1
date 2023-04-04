@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/background" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="10dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="@font/sungdong"
+        android:gravity="center"
+        android:saveEnabled="false"
+        android:text="라이어게임\n\n라이어게임은 여러명의 사람들이 둘러앉아\n간편하게 즐길 수 있는 게임 입니다.\n\n게임은 사회자가 알려주는 제시어를\n라이어로 선택한 한 명을 제외한\n모든 플레이어에게 알려주며,\n플레이어들은 라이어가 알아차리지 못하게\n하지만 서로간 공감할 수 있는\n내용의 설명을 두 턴에 걸쳐 돌아가며\n진행하게 됩니다.\n\n라이어는 이 설명을 들으며\n최선을 다해 제시어를 유추하여야 하며,\n 본인의 차례에서는 라이어임을 눈치채지 못하게\n그럴듯한 설명을 곁들여야 합니다.\n\n설명이 끝난 후 투표를 통해\n라이어로 의심되는 플레이어를 지목하며,\n지목된 대상이 라이어일 경우,\n라이어가 제시어를 알고 있는 경우,\n지목된 대상이 플레이어일 경우는\n플레이어가 패배하게 되며,\n지목된 라이어가 제시어를 모르는 경우\n라이어가 패배하게 됩니다.\n\n이 앱은 이런 라이어게임을 더욱 쉽고 긴장감있게\n플레이 할 수 있도록 제작 되었으며,\n다양한 제시어와 카테고리로 즐거움을 선사합니다.\n\n그럼 라이어 게임을 시작해 볼까요?\n\nSpecial Thanks to 대구과학고등학교 친구들"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView36"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView4" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:foreground="@drawable/drawbackgrape"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/no" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="이전"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView30"
+        app:layout_constraintEnd_toEndOf="@+id/imageView30"
+        app:layout_constraintStart_toStartOf="@+id/imageView30"
+        app:layout_constraintTop_toTopOf="@+id/imageView30" />
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="361dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/samtreelogo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

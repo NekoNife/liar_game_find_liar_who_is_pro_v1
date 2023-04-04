@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".numActivity">
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="120dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/level1" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="260dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gametag1" />
+
+    <ImageView
+        android:id="@+id/numstrat1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:padding="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/numstrat2"
+        app:layout_constraintStart_toStartOf="@+id/imageView29"
+        app:layout_constraintTop_toBottomOf="@+id/imageView29"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/numstrat101"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/numstrat1"
+        app:layout_constraintEnd_toEndOf="@+id/numstrat1"
+        app:layout_constraintStart_toStartOf="@+id/numstrat1"
+        app:layout_constraintTop_toTopOf="@+id/numstrat1"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numstrat2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/numstrat1"
+        app:layout_constraintEnd_toStartOf="@+id/numstrat3"
+        app:layout_constraintStart_toEndOf="@+id/numstrat1"
+        app:layout_constraintTop_toTopOf="@+id/numstrat1"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/numstrat102"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/numstrat2"
+        app:layout_constraintEnd_toEndOf="@+id/numstrat2"
+        app:layout_constraintStart_toStartOf="@+id/numstrat2"
+        app:layout_constraintTop_toTopOf="@+id/numstrat2"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numstrat3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/numstrat1"
+        app:layout_constraintEnd_toStartOf="@+id/numstrat4"
+        app:layout_constraintStart_toEndOf="@+id/numstrat2"
+        app:layout_constraintTop_toTopOf="@+id/numstrat1"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/numstrat103"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/numstrat3"
+        app:layout_constraintEnd_toEndOf="@+id/numstrat3"
+        app:layout_constraintStart_toStartOf="@+id/numstrat3"
+        app:layout_constraintTop_toTopOf="@+id/numstrat3"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numstrat4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="5dp"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/numstrat1"
+        app:layout_constraintEnd_toEndOf="@+id/imageView29"
+        app:layout_constraintStart_toEndOf="@+id/numstrat3"
+        app:layout_constraintTop_toTopOf="@+id/numstrat1"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/numstrat104"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/numstrat4"
+        app:layout_constraintEnd_toEndOf="@+id/numstrat4"
+        app:layout_constraintStart_toStartOf="@+id/numstrat4"
+        app:layout_constraintTop_toTopOf="@+id/numstrat4"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numstrat5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/numstrat1"
+        app:layout_constraintStart_toStartOf="@+id/numstrat1"
+        app:layout_constraintTop_toBottomOf="@+id/numstrat1"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/numstrat105"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/numstrat5"
+        app:layout_constraintEnd_toEndOf="@+id/numstrat5"
+        app:layout_constraintStart_toStartOf="@+id/numstrat5"
+        app:layout_constraintTop_toTopOf="@+id/numstrat5"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numstrat6"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/numstrat5"
+        app:layout_constraintEnd_toEndOf="@+id/numstrat2"
+        app:layout_constraintStart_toStartOf="@+id/numstrat2"
+        app:layout_constraintTop_toTopOf="@+id/numstrat5"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/numstrat106"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/numstrat6"
+        app:layout_constraintEnd_toEndOf="@+id/numstrat6"
+        app:layout_constraintStart_toStartOf="@+id/numstrat6"
+        app:layout_constraintTop_toTopOf="@+id/numstrat6"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numstrat7"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/numstrat5"
+        app:layout_constraintEnd_toEndOf="@+id/numstrat3"
+        app:layout_constraintStart_toStartOf="@+id/numstrat3"
+        app:layout_constraintTop_toTopOf="@+id/numstrat5"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/numstrat107"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/numstrat7"
+        app:layout_constraintEnd_toEndOf="@+id/numstrat7"
+        app:layout_constraintStart_toStartOf="@+id/numstrat7"
+        app:layout_constraintTop_toTopOf="@+id/numstrat7"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numstrat8"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/numstrat5"
+        app:layout_constraintEnd_toEndOf="@+id/numstrat4"
+        app:layout_constraintStart_toStartOf="@+id/numstrat4"
+        app:layout_constraintTop_toTopOf="@+id/numstrat5"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/numstrat108"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/numstrat8"
+        app:layout_constraintEnd_toEndOf="@+id/numstrat8"
+        app:layout_constraintStart_toStartOf="@+id/numstrat8"
+        app:layout_constraintTop_toTopOf="@+id/numstrat8"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numstrat9"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/numstrat1"
+        app:layout_constraintStart_toStartOf="@+id/numstrat1"
+        app:layout_constraintTop_toBottomOf="@+id/numstrat5"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/numstrat109"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/numstrat9"
+        app:layout_constraintEnd_toEndOf="@+id/numstrat9"
+        app:layout_constraintStart_toStartOf="@+id/numstrat9"
+        app:layout_constraintTop_toTopOf="@+id/numstrat9"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numstrat10"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/numstrat9"
+        app:layout_constraintEnd_toEndOf="@+id/numstrat2"
+        app:layout_constraintStart_toStartOf="@+id/numstrat2"
+        app:layout_constraintTop_toTopOf="@+id/numstrat9"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/numstrat110"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/numstrat10"
+        app:layout_constraintEnd_toEndOf="@+id/numstrat10"
+        app:layout_constraintStart_toStartOf="@+id/numstrat10"
+        app:layout_constraintTop_toTopOf="@+id/numstrat10"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numstrat11"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/numstrat9"
+        app:layout_constraintEnd_toEndOf="@+id/numstrat3"
+        app:layout_constraintStart_toStartOf="@+id/numstrat3"
+        app:layout_constraintTop_toTopOf="@+id/numstrat9"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/numstrat111"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/numstrat9"
+        app:layout_constraintEnd_toEndOf="@+id/numstrat3"
+        app:layout_constraintStart_toStartOf="@+id/numstrat3"
+        app:layout_constraintTop_toTopOf="@+id/numstrat9"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numstrat12"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/numstrat9"
+        app:layout_constraintEnd_toEndOf="@+id/numstrat4"
+        app:layout_constraintStart_toStartOf="@+id/numstrat4"
+        app:layout_constraintTop_toTopOf="@+id/numstrat9"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/numstrat112"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/numstrat9"
+        app:layout_constraintEnd_toEndOf="@+id/numstrat4"
+        app:layout_constraintStart_toStartOf="@+id/numstrat4"
+        app:layout_constraintTop_toTopOf="@+id/numstrat9"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numstrat13"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/numstrat1"
+        app:layout_constraintStart_toStartOf="@+id/numstrat1"
+        app:layout_constraintTop_toBottomOf="@+id/numstrat9"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/numstrat113"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/numstrat13"
+        app:layout_constraintEnd_toEndOf="@+id/numstrat1"
+        app:layout_constraintStart_toStartOf="@+id/numstrat1"
+        app:layout_constraintTop_toTopOf="@+id/numstrat13"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numstrat14"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/numstrat13"
+        app:layout_constraintEnd_toEndOf="@+id/numstrat2"
+        app:layout_constraintStart_toStartOf="@+id/numstrat2"
+        app:layout_constraintTop_toTopOf="@+id/numstrat13"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/numstrat114"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/numstrat13"
+        app:layout_constraintEnd_toEndOf="@+id/numstrat2"
+        app:layout_constraintStart_toStartOf="@+id/numstrat2"
+        app:layout_constraintTop_toTopOf="@+id/numstrat13"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numstrat15"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/numstrat13"
+        app:layout_constraintEnd_toEndOf="@+id/numstrat3"
+        app:layout_constraintStart_toStartOf="@+id/numstrat3"
+        app:layout_constraintTop_toTopOf="@+id/numstrat13"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/numstrat115"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/numstrat13"
+        app:layout_constraintEnd_toEndOf="@+id/numstrat3"
+        app:layout_constraintStart_toStartOf="@+id/numstrat3"
+        app:layout_constraintTop_toTopOf="@+id/numstrat13"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numstrat16"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/numstrat13"
+        app:layout_constraintEnd_toEndOf="@+id/numstrat4"
+        app:layout_constraintStart_toStartOf="@+id/numstrat4"
+        app:layout_constraintTop_toTopOf="@+id/numstrat13"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/numstrat116"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/numstrat13"
+        app:layout_constraintEnd_toEndOf="@+id/numstrat4"
+        app:layout_constraintStart_toStartOf="@+id/numstrat4"
+        app:layout_constraintTop_toTopOf="@+id/numstrat13"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView26"
+        app:srcCompat="@drawable/playertag" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="3"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/numstrat3"
+        app:layout_constraintTop_toTopOf="@+id/numstrat3" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="4"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/numstrat4"
+        app:layout_constraintTop_toTopOf="@+id/numstrat4" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="5"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/numstrat5"
+        app:layout_constraintTop_toTopOf="@+id/numstrat5" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="6"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/numstrat6"
+        app:layout_constraintTop_toTopOf="@+id/numstrat6" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="7"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/numstrat7"
+        app:layout_constraintTop_toTopOf="@+id/numstrat7" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="8"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/numstrat8"
+        app:layout_constraintTop_toTopOf="@+id/numstrat8" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="9"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/numstrat9"
+        app:layout_constraintTop_toTopOf="@+id/numstrat9" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="10"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/numstrat10"
+        app:layout_constraintTop_toTopOf="@+id/numstrat10" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="11"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/numstrat11"
+        app:layout_constraintTop_toTopOf="@+id/numstrat11" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="12"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/numstrat12"
+        app:layout_constraintTop_toTopOf="@+id/numstrat12" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="13"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/numstrat13"
+        app:layout_constraintTop_toTopOf="@+id/numstrat13" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="14"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/numstrat14"
+        app:layout_constraintTop_toTopOf="@+id/numstrat14" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="15"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/numstrat15"
+        app:layout_constraintTop_toTopOf="@+id/numstrat15" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="16"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/numstrat16"
+        app:layout_constraintTop_toTopOf="@+id/numstrat16" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="334dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/sungdong"
+        android:gravity="center"
+        android:text="참가자의 인원수를 선택해주세요."
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <ImageView
+        android:id="@+id/numback"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="25dp"
+        android:padding="4dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@+id/numbt"
+        app:layout_constraintEnd_toStartOf="@+id/numbt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/numbt"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/no" />
+
+    <ImageView
+        android:id="@+id/numbt"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="30dp"
+        android:padding="4dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/numback"
+        app:srcCompat="@drawable/next" />
+
+    <ImageView
+        android:id="@+id/numback2"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/numbt"
+        app:layout_constraintEnd_toEndOf="@+id/numback"
+        app:layout_constraintStart_toStartOf="@+id/numback"
+        app:layout_constraintTop_toTopOf="@+id/numbt"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numbt2"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:padding="4dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@+id/numbt"
+        app:layout_constraintEnd_toEndOf="@+id/numbt"
+        app:layout_constraintStart_toStartOf="@+id/numbt"
+        app:layout_constraintTop_toTopOf="@+id/numbt"
+        app:srcCompat="?attr/selectableItemBackground" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif"
+        android:foreground="@drawable/drawbackblack"
+        android:gravity="center"
+        android:text="이전"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/numback"
+        app:layout_constraintEnd_toEndOf="@+id/numback"
+        app:layout_constraintStart_toStartOf="@+id/numback"
+        app:layout_constraintTop_toTopOf="@+id/numback" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="다음"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/numbt"
+        app:layout_constraintEnd_toEndOf="@+id/numbt"
+        app:layout_constraintStart_toStartOf="@+id/numbt"
+        app:layout_constraintTop_toTopOf="@+id/numbt" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

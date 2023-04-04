@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".personnel">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background" />
+
+    <ImageView
+        android:id="@+id/num1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:background="#00000000"
+        android:padding="5dp"
+
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/num2"
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/num2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:padding="5dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num1"
+        app:layout_constraintEnd_toStartOf="@+id/num3"
+        app:layout_constraintStart_toEndOf="@+id/num1"
+        app:layout_constraintTop_toTopOf="@+id/num1"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/num3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:padding="5dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num1"
+        app:layout_constraintEnd_toStartOf="@+id/num4"
+        app:layout_constraintStart_toEndOf="@+id/num2"
+        app:layout_constraintTop_toTopOf="@+id/num1"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/num4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="5dp"
+        android:padding="5dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num1"
+        app:layout_constraintEnd_toEndOf="@+id/imageView9"
+        app:layout_constraintStart_toEndOf="@+id/num3"
+        app:layout_constraintTop_toTopOf="@+id/num1"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/num5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="@+id/num1"
+        app:layout_constraintStart_toStartOf="@+id/num1"
+        app:layout_constraintTop_toBottomOf="@+id/num1"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/num6"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="5dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num5"
+        app:layout_constraintEnd_toEndOf="@+id/num2"
+        app:layout_constraintStart_toStartOf="@+id/num2"
+        app:layout_constraintTop_toTopOf="@+id/num5"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/num7"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="5dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num5"
+        app:layout_constraintEnd_toEndOf="@+id/num3"
+        app:layout_constraintStart_toStartOf="@+id/num3"
+        app:layout_constraintTop_toTopOf="@+id/num5"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/num8"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="5dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num7"
+        app:layout_constraintEnd_toEndOf="@+id/num4"
+        app:layout_constraintStart_toStartOf="@+id/num4"
+        app:layout_constraintTop_toTopOf="@+id/num7"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/num9"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="@+id/num5"
+        app:layout_constraintStart_toStartOf="@+id/num5"
+        app:layout_constraintTop_toBottomOf="@+id/num5"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/num10"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="5dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num9"
+        app:layout_constraintEnd_toEndOf="@+id/num6"
+        app:layout_constraintStart_toStartOf="@+id/num6"
+        app:layout_constraintTop_toTopOf="@+id/num9"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/num11"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="5dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num10"
+        app:layout_constraintEnd_toEndOf="@+id/num7"
+        app:layout_constraintStart_toStartOf="@+id/num7"
+        app:layout_constraintTop_toTopOf="@+id/num10"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/num12"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="5dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num11"
+        app:layout_constraintEnd_toEndOf="@+id/num8"
+        app:layout_constraintStart_toStartOf="@+id/num8"
+        app:layout_constraintTop_toTopOf="@+id/num11"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/num13"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="@+id/num9"
+        app:layout_constraintStart_toStartOf="@+id/num9"
+        app:layout_constraintTop_toBottomOf="@+id/num9"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/num14"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="5dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num13"
+        app:layout_constraintEnd_toEndOf="@+id/num10"
+        app:layout_constraintStart_toStartOf="@+id/num10"
+        app:layout_constraintTop_toTopOf="@+id/num13"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/num15"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="5dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num13"
+        app:layout_constraintEnd_toEndOf="@+id/num11"
+        app:layout_constraintStart_toStartOf="@+id/num11"
+        app:layout_constraintTop_toTopOf="@+id/num13"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/num16"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="5dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num13"
+        app:layout_constraintEnd_toEndOf="@+id/num12"
+        app:layout_constraintStart_toStartOf="@+id/num12"
+        app:layout_constraintTop_toTopOf="@+id/num13"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/num17"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="@+id/num13"
+        app:layout_constraintStart_toStartOf="@+id/num13"
+        app:layout_constraintTop_toBottomOf="@+id/num13"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/num18"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="5dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num17"
+        app:layout_constraintEnd_toEndOf="@+id/num14"
+        app:layout_constraintStart_toStartOf="@+id/num14"
+        app:layout_constraintTop_toTopOf="@+id/num17"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/num19"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="5dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num17"
+        app:layout_constraintEnd_toEndOf="@+id/num15"
+        app:layout_constraintStart_toStartOf="@+id/num15"
+        app:layout_constraintTop_toTopOf="@+id/num17"
+        app:srcCompat="@drawable/playerback" />
+
+    <ImageView
+        android:id="@+id/num20"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="5dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num17"
+        app:layout_constraintEnd_toEndOf="@+id/num16"
+        app:layout_constraintStart_toStartOf="@+id/num16"
+        app:layout_constraintTop_toTopOf="@+id/num17"
+        app:srcCompat="@drawable/playerback" />
+
+    <TextView
+        android:id="@+id/numtag1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="1"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/num1"
+        app:layout_constraintTop_toTopOf="@+id/num1" />
+
+    <TextView
+        android:id="@+id/numtag2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="2"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/num2"
+        app:layout_constraintTop_toTopOf="@+id/num2" />
+
+    <TextView
+        android:id="@+id/numtag3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="3"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/num3"
+        app:layout_constraintTop_toTopOf="@+id/num3" />
+
+    <TextView
+        android:id="@+id/numtag4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="4"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/num4"
+        app:layout_constraintTop_toTopOf="@+id/num4" />
+
+    <TextView
+        android:id="@+id/numtag5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="5"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/num5"
+        app:layout_constraintTop_toTopOf="@+id/num5" />
+
+    <TextView
+        android:id="@+id/numtag6"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="6"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/num6"
+        app:layout_constraintTop_toTopOf="@+id/num6" />
+
+    <TextView
+        android:id="@+id/numtag7"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="7"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/num7"
+        app:layout_constraintTop_toTopOf="@+id/num7" />
+
+    <TextView
+        android:id="@+id/numtag8"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="8"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/num8"
+        app:layout_constraintTop_toTopOf="@+id/num8" />
+
+    <TextView
+        android:id="@+id/numtag9"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="9"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/num9"
+        app:layout_constraintTop_toTopOf="@+id/num9" />
+
+    <TextView
+        android:id="@+id/numtag10"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="10"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/num10"
+        app:layout_constraintTop_toTopOf="@+id/num10" />
+
+    <TextView
+        android:id="@+id/numtag11"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="11"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/num11"
+        app:layout_constraintTop_toTopOf="@+id/num11" />
+
+    <TextView
+        android:id="@+id/numtag12"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="12"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/num12"
+        app:layout_constraintTop_toTopOf="@+id/num12" />
+
+    <TextView
+        android:id="@+id/numtag13"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="13"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/num13"
+        app:layout_constraintTop_toTopOf="@+id/num13" />
+
+    <TextView
+        android:id="@+id/numtag14"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="14"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/num14"
+        app:layout_constraintTop_toTopOf="@+id/num14" />
+
+    <TextView
+        android:id="@+id/numtag15"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="15"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/num15"
+        app:layout_constraintTop_toTopOf="@+id/num15" />
+
+    <TextView
+        android:id="@+id/numtag16"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="16"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/num16"
+        app:layout_constraintTop_toTopOf="@+id/num16" />
+
+    <TextView
+        android:id="@+id/numtag17"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="17"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/num17"
+        app:layout_constraintTop_toTopOf="@+id/num17" />
+
+    <TextView
+        android:id="@+id/numtag18"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="18"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/num18"
+        app:layout_constraintTop_toTopOf="@+id/num18" />
+
+    <TextView
+        android:id="@+id/numtag19"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="19"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/num19"
+        app:layout_constraintTop_toTopOf="@+id/num19" />
+
+    <TextView
+        android:id="@+id/numtag20"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="20"
+        app:autoSizeTextType="uniform"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="@+id/num20"
+        app:layout_constraintTop_toTopOf="@+id/num20" />
+
+    <ImageView
+        android:id="@+id/numcov1"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:background="#00000000"
+
+        android:padding="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num1"
+        app:layout_constraintEnd_toEndOf="@+id/num1"
+        app:layout_constraintStart_toStartOf="@+id/num1"
+        app:layout_constraintTop_toTopOf="@+id/num1"
+        app:srcCompat="?attr/selectableItemBackground" />
+
+    <ImageView
+        android:id="@+id/numcov2"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num2"
+        app:layout_constraintEnd_toEndOf="@+id/num2"
+        app:layout_constraintStart_toStartOf="@+id/num2"
+        app:layout_constraintTop_toTopOf="@+id/num2"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numcov3"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num3"
+        app:layout_constraintEnd_toEndOf="@+id/num3"
+        app:layout_constraintStart_toStartOf="@+id/num3"
+        app:layout_constraintTop_toTopOf="@+id/num3"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numcov4"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num4"
+        app:layout_constraintEnd_toEndOf="@+id/num4"
+        app:layout_constraintStart_toStartOf="@+id/num4"
+        app:layout_constraintTop_toTopOf="@+id/num4"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numcov5"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num5"
+        app:layout_constraintEnd_toEndOf="@+id/num1"
+        app:layout_constraintStart_toStartOf="@+id/num1"
+        app:layout_constraintTop_toTopOf="@+id/num5"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numcov6"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num5"
+        app:layout_constraintEnd_toEndOf="@+id/num2"
+        app:layout_constraintStart_toStartOf="@+id/num2"
+        app:layout_constraintTop_toTopOf="@+id/num5"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numcov7"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num5"
+        app:layout_constraintEnd_toEndOf="@+id/num3"
+        app:layout_constraintStart_toStartOf="@+id/num3"
+        app:layout_constraintTop_toTopOf="@+id/num5"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numcov8"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num7"
+        app:layout_constraintEnd_toEndOf="@+id/num4"
+        app:layout_constraintStart_toStartOf="@+id/num4"
+        app:layout_constraintTop_toTopOf="@+id/num7"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numcov9"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num9"
+        app:layout_constraintEnd_toEndOf="@+id/num5"
+        app:layout_constraintStart_toStartOf="@+id/num5"
+        app:layout_constraintTop_toTopOf="@+id/num9"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numcov10"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num9"
+        app:layout_constraintEnd_toEndOf="@+id/num6"
+        app:layout_constraintStart_toStartOf="@+id/num6"
+        app:layout_constraintTop_toTopOf="@+id/num9"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numcov11"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num10"
+        app:layout_constraintEnd_toEndOf="@+id/num7"
+        app:layout_constraintStart_toStartOf="@+id/num7"
+        app:layout_constraintTop_toTopOf="@+id/num10"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numcov12"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num11"
+        app:layout_constraintEnd_toEndOf="@+id/num8"
+        app:layout_constraintStart_toStartOf="@+id/num8"
+        app:layout_constraintTop_toTopOf="@+id/num11"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numcov13"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num13"
+        app:layout_constraintEnd_toEndOf="@+id/num9"
+        app:layout_constraintStart_toStartOf="@+id/num9"
+        app:layout_constraintTop_toTopOf="@+id/num13"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numcov14"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num13"
+        app:layout_constraintEnd_toEndOf="@+id/num10"
+        app:layout_constraintStart_toStartOf="@+id/num10"
+        app:layout_constraintTop_toTopOf="@+id/num13"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numcov15"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num13"
+        app:layout_constraintEnd_toEndOf="@+id/num11"
+        app:layout_constraintStart_toStartOf="@+id/num11"
+        app:layout_constraintTop_toTopOf="@+id/num13"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numcov16"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num13"
+        app:layout_constraintEnd_toEndOf="@+id/num12"
+        app:layout_constraintStart_toStartOf="@+id/num12"
+        app:layout_constraintTop_toTopOf="@+id/num13"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numcov17"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num17"
+        app:layout_constraintEnd_toEndOf="@+id/num13"
+        app:layout_constraintStart_toStartOf="@+id/num13"
+        app:layout_constraintTop_toTopOf="@+id/num17"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numcov18"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num17"
+        app:layout_constraintEnd_toEndOf="@+id/num14"
+        app:layout_constraintStart_toStartOf="@+id/num14"
+        app:layout_constraintTop_toTopOf="@+id/num17"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numcov19"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num17"
+        app:layout_constraintEnd_toEndOf="@+id/num15"
+        app:layout_constraintStart_toStartOf="@+id/num15"
+        app:layout_constraintTop_toTopOf="@+id/num17"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/numcov20"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:padding="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/num17"
+        app:layout_constraintEnd_toEndOf="@+id/num16"
+        app:layout_constraintStart_toStartOf="@+id/num16"
+        app:layout_constraintTop_toTopOf="@+id/num17"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/playertag" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="260dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gametag2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="245dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/sungdong"
+        android:gravity="center"
+        android:text="참가자분들은 사진을 촬영해주세요."
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="320dp"
+        android:layout_height="18dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/sungdong"
+        android:gravity="center"
+        android:text="촬영한 사진은 서버로 전송되거나 저장되지 않습니다."
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/checkbt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView22" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="120dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/level2" />
+
+    <ImageView
+        android:id="@+id/perback"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="25dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@+id/checkbt"
+        app:layout_constraintEnd_toStartOf="@+id/checkbt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/checkbt"
+        app:srcCompat="@drawable/before" />
+
+    <ImageView
+        android:id="@+id/perback2"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@+id/checkbt"
+        app:layout_constraintEnd_toEndOf="@+id/perback"
+        app:layout_constraintStart_toStartOf="@+id/perback"
+        app:layout_constraintTop_toTopOf="@+id/checkbt"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/checkbt"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="50dp"
+        android:background="#000000"
+        android:padding="4dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@+id/checkbt2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/perback"
+        app:layout_constraintTop_toTopOf="@+id/checkbt2"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/next" />
+
+    <ImageView
+        android:id="@+id/checkbt2"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:background="#000000"
+        android:padding="4dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+        app:layout_constraintEnd_toEndOf="@+id/checkbt"
+        app:layout_constraintStart_toStartOf="@+id/checkbt"
+        app:srcCompat="@drawable/next" />
+
+    <ImageView
+        android:id="@+id/checkbt3"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:background="#00000000"
+        android:padding="4dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@+id/checkbt"
+        app:layout_constraintEnd_toEndOf="@+id/checkbt"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/checkbt"
+        app:layout_constraintTop_toTopOf="@+id/checkbt"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="?attr/selectableItemBackgroundBorderless" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="이전"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/perback"
+        app:layout_constraintEnd_toEndOf="@+id/perback"
+        app:layout_constraintStart_toStartOf="@+id/perback"
+        app:layout_constraintTop_toTopOf="@+id/perback" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="다음"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/checkbt"
+        app:layout_constraintEnd_toEndOf="@+id/checkbt"
+        app:layout_constraintStart_toStartOf="@+id/checkbt"
+        app:layout_constraintTop_toTopOf="@+id/checkbt" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
