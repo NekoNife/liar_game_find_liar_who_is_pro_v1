@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <external-path name="hidden" path="Android/data/com.example.liar_game_find_liar_who_is/files/Pictures" />
+</paths>
