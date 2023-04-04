@@ -1,0 +1,86 @@
+﻿
+F1::
+i = 0
+Winmove,A,,0,0,1800,1800
+WinGetTitle, Title, A
+ WinGetPos, calx, caly, calw, calh, A
+Loop{
+ Formattime, cur_time,, ddHHmm
+  if ( cur_time = 300911 )
+  {
+   break
+  }
+}
+Sleep,1000
+MouseClick,L,312,95
+send,https://isamtree.com/login
+Sleep,1000
+send,{Enter}
+Sleep,3000
+MouseClick,L,900,1280
+Sleep,3000
+MouseClick,L,1650,227
+Sleep,3000
+MouseClick,L,460,360
+Sleep,1000
+send,[NOWFREE]SamWatch SIGN CUBE Space S 1
+Sleep,1000
+MouseClick,L,440,600
+Sleep,1000
+MouseClick,L,390,840
+Sleep,3000
+MouseClick,L,450,250
+Sleep,1000
+send,{Enter}
+Sleep,3000
+MouseClick,L,420,995
+Sleep,1000
+send,https://play.google.com/store/apps/details?id=com.watchfacestudio.samwatch_sign_cube_space_special_1
+Sleep,1000
+MouseClick,L,420,1227
+Sleep,1000
+send,SamWatch beautifully decorates your smartwatch.
+send,{Enter}
+send,We are trying to provide a variety of watch faces that suit your lifestyle and differentiated designs.
+send,{Enter}
+send,Feel the sensuous design of SamWatch.
+Sleep,1000
+MouseClick,L,1650,227
+// 1
+;~ Sleep,3000
+;~ MouseClick,L,1650,227
+;~ Sleep,3000
+;~ MouseClick,L,460,360
+;~ Sleep,1000
+;~ send,[NOWFREE]SamWatch X-Mas Delivery
+;~ Sleep,1000
+;~ MouseClick,L,440,600
+;~ Sleep,1000
+;~ MouseClick,L,390,840
+;~ Sleep,3000
+;~ MouseClick,L,600,250
+;~ Sleep,1000
+;~ send,{Enter}
+;~ Sleep,3000
+;~ MouseClick,L,420,995
+;~ Sleep,1000
+;~ send,https://play.google.com/store/apps/details?id=com.watchfacestudio.samwatch_x_mas_delivery
+;~ Sleep,1000
+;~ MouseClick,L,420,1227
+;~ Sleep,1000
+;~ send,SamWatch beautifully decorates your smartwatch.
+;~ send,{Enter}
+;~ send,We are trying to provide a variety of watch faces that suit your lifestyle and differentiated designs.
+;~ send,{Enter}
+;~ send,Feel the sensuous design of SamWatch.
+;~ Sleep,1000
+;~ MouseClick,L,1650,227
+return
+
+F6::
+Stop:
+Pause
+return
+F4::
+GuiClose:
+ExitApp

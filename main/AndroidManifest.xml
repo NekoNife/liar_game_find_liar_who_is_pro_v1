@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.liar_game_find_liar_who_is">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:screenOrientation="portrait"
+
+        android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar">
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".ads"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".seller"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".help"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".end"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".vote2"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".vote"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".Maingame"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".gamestart"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".select"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".numcheck"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".personnel"
+            android:exported="false" />
+        <activity
+              android:screenOrientation="portrait"
+            android:name=".numActivity"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".SetActivity"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".MainActivity2"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.cameraonly.fileprovider.liarpro"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8634663172590331~4139520984" />
+    </application>
+
+</manifest>
